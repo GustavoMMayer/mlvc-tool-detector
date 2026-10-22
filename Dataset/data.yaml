@@ -1,0 +1,14 @@
+path: /workspaces/Projeto final MLVC/Dataset
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['car', 'cat', 'driller', 'gasolin', 'hammer', 'hole_punch', 'ring_spanner', 'rope', 'saw', 'scale', 'scissors', 'screw', 'screw_driver', 'spanner', 'tool_box', 'water_tap', 'wire_cutter', 'wrench']
+
+roboflow:
+  workspace: demo-inxi4
+  project: tools-dwabz
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/demo-inxi4/tools-dwabz/dataset/3
