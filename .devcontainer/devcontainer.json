@@ -2,7 +2,8 @@
   "name": "YOLO com GPU (NVIDIA GTX)",
   "image": "ultralytics/ultralytics:latest",
   "runArgs": [
-    "--gpus=all"
+    "--gpus=all",
+    "--shm-size=8gb"
   ],
   "customizations": {
     "vscode": {
