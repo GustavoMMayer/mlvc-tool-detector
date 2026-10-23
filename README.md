@@ -2,9 +2,6 @@
 
 Sistema de detecção de objetos focado no reconhecimento automático de ferramentas manuais e elétricas via API RESTful.
 
-## 🔗 Links Principais
-- **Quadro Trello (Público):** [Inserir Link do Trello Aqui]
-- **Vídeo de Demonstração:** [Inserir Link do Vídeo (Drive/YouTube) Aqui]
 
 ## 🛠️ Dataset
 O dataset é composto por 10 classes de ferramentas:
@@ -23,7 +20,7 @@ O dataset é composto por 10 classes de ferramentas:
 
 ### 1. Clonar e Instalar Dependências
 ```bash
-git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+git clone [https://github.com/GustavoMMayer/mlvc-tool-detector](https://github.com/GustavoMMayer/mlvc-tool-detector)
 cd SEU_REPOSITORIO
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
